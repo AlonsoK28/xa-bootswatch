@@ -4709,11 +4709,11 @@ textarea.form-control-lg {
   --bs-breadcrumb-padding-x: 0.75rem;
   --bs-breadcrumb-padding-y: 0.375rem;
   --bs-breadcrumb-margin-bottom: 1rem;
-  --bs-breadcrumb-bg: var(--bs-tertiary-bg);
+  --bs-breadcrumb-bg: #ed1748;
   --bs-breadcrumb-border-radius: 0.25rem;
-  --bs-breadcrumb-divider-color: var(--bs-secondary-color);
+  --bs-breadcrumb-divider-color: #fff;
   --bs-breadcrumb-item-padding-x: 0.5rem;
-  --bs-breadcrumb-item-active-color: var(--bs-secondary-color);
+  --bs-breadcrumb-item-active-color: #fff;
   display: flex;
   flex-wrap: wrap;
   padding: var(--bs-breadcrumb-padding-y) var(--bs-breadcrumb-padding-x);
@@ -4742,7 +4742,7 @@ textarea.form-control-lg {
   --bs-pagination-padding-y: 0.375rem;
   --bs-pagination-font-size: 1rem;
   --bs-pagination-color: #fff;
-  --bs-pagination-bg: var(--bs-tertiary-bg);
+  --bs-pagination-bg: #ed1748;
   --bs-pagination-border-width: var(--bs-border-width);
   --bs-pagination-border-color: #ed1748;
   --bs-pagination-border-radius: var(--bs-border-radius);
@@ -4756,8 +4756,8 @@ textarea.form-control-lg {
   --bs-pagination-active-bg: #f3969a;
   --bs-pagination-active-border-color: #f3969a;
   --bs-pagination-disabled-color: #fff;
-  --bs-pagination-disabled-bg: #888;
-  --bs-pagination-disabled-border-color: #888;
+  --bs-pagination-disabled-bg: #cce8e0;
+  --bs-pagination-disabled-border-color: #cce8e0;
   display: flex;
   padding-left: 0;
   list-style: none;
