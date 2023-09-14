@@ -1,8 +1,20 @@
 ## Hot to compile
 
-Compile all themes using `grunt swatch --force`
+Compile all themes using command `grunt swatch --force`
 
-Compile specify theme using `grunt swatch:xa-minty --force`
+Compile specify theme using command `grunt swatch:xa-minty --force`
+
+## Publish new and update themes
+
+- Create folder theme into `dist`
+  - example: `xa-modern`
+
+- Add file `_bootswatch.scss` and `_variables.scss` to folder theme and modify his content if its neccesary
+
+- Compile theme using command `grunt swatch:xa-modern --force`
+
+- Update `package` version and publish using command `npm publish` (don't forget to `log in` if necessary)
+
 
 <p align="center">
   <img width="200" height="200" src="https://bootswatch.com/_assets/img/logo-dark.svg">
