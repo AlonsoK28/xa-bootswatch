@@ -6,14 +6,16 @@ Compile specify theme using command `grunt swatch:xa-minty --force`
 
 ## Publish new and update themes
 
-- Create folder theme into `dist`
-  - example: `xa-modern`
+1. Create folder theme into `dist`
+    - example: `xa-modern`
 
-- Add file `_bootswatch.scss` and `_variables.scss` to folder theme and modify his content if its neccesary
+2. Add file `_bootswatch.scss` and `_variables.scss` to folder theme and modify his content if its neccesary
 
-- Compile theme using command `grunt swatch:xa-modern --force`
+3. Compile theme using command `grunt swatch:xa-modern --force`
 
-- Update `package` version and publish using command `npm publish` (don't forget to `log in` if necessary)
+4. Commit theme changes
+
+5. Update `package` version and publish using command `npm publish` (don't forget to `log in` if necessary)
 
 
 <p align="center">
