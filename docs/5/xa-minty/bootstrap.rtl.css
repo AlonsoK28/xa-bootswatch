@@ -1,6 +1,6 @@
 @charset "UTF-8";
 /*!
- * Bootswatch v5.3.5 (https://bootswatch.com)
+ * Bootswatch v5.3.6 (https://bootswatch.com)
  * Theme: xa-minty
  * Copyright 2012-2023 Thomas Park
  * Licensed under MIT
@@ -4711,7 +4711,7 @@ textarea.form-control-lg {
   --bs-breadcrumb-border-radius: 0.25rem;
   --bs-breadcrumb-divider-color: #fff;
   --bs-breadcrumb-item-padding-x: 0.5rem;
-  --bs-breadcrumb-item-active-color: #fff;
+  --bs-breadcrumb-item-active-color: #000;
   display: flex;
   flex-wrap: wrap;
   padding: var(--bs-breadcrumb-padding-y) var(--bs-breadcrumb-padding-x);
