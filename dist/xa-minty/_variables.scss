@@ -75,7 +75,7 @@ $dropdown-link-hover-bg:            $secondary !default;
 // Pagination
 
 $pagination-color:                  $white !default;
-$pagination-bg:                     $primary !default;
+$pagination-bg:                     var(--#{$prefix}tertiary-bg) !default;
 $pagination-border-color:           $primary !default;
 $pagination-hover-color:            $white !default;
 $pagination-hover-bg:               $secondary !default;
@@ -83,7 +83,7 @@ $pagination-hover-border-color:     $pagination-hover-bg !default;
 $pagination-active-bg:              $secondary !default;
 $pagination-active-border-color:    $pagination-active-bg !default;
 $pagination-disabled-color:         $white !default;
-$pagination-disabled-bg:            #cce8e0 !default;
+$pagination-disabled-bg:            $gray-600 !default;
 $pagination-disabled-border-color:  $pagination-disabled-bg !default;
 
 // Alerts
@@ -95,7 +95,8 @@ $alert-bg-scale:                    0% !default;
 
 $breadcrumb-padding-y:              .375rem !default;
 $breadcrumb-padding-x:              .75rem !default;
-$breadcrumb-bg:                     $primary !default;
-$breadcrumb-divider-color:          $white !default;
-$breadcrumb-active-color:           $body-color !default;
+$breadcrumb-bg:                     $pagination-bg !default;
+// $breadcrumb-divider-color:          $white !default;
+// $breadcrumb-active-color:           $body-color !default;
 $breadcrumb-border-radius:          .25rem !default;
+
