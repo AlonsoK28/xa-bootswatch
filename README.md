@@ -1,3 +1,9 @@
+## Hot to compile
+
+Compile all themes using `grunt swatch --force`
+
+Compile specify theme using `grunt swatch:xa-minty --force`
+
 <p align="center">
   <img width="200" height="200" src="https://bootswatch.com/_assets/img/logo-dark.svg">
 </p>
