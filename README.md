@@ -13,9 +13,11 @@ Compile specify theme using command `grunt swatch:xa-minty --force`
 
 3. Compile theme using command `grunt swatch:xa-modern --force`
 
-4. Commit theme changes
+4. Commit theme `dist` folder changes
 
-5. Update `package` version and publish using command `npm publish` (don't forget to `log in` if necessary)
+5. Update `package` version 
+
+6. Publish using command `npm publish` (don't forget to `log in` if necessary)
 
 
 <p align="center">
