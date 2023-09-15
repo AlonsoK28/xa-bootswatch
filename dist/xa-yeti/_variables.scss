@@ -30,7 +30,9 @@ $green:   #43ac6a !default;
 $teal:    #20c997 !default;
 $cyan:    #5bc0de !default;
 
-$primary:       $black !default;
+$cajas-de-plastico-color: $black;
+
+$primary:       $cajas-de-plastico-color !default;
 $secondary:     $gray-200 !default;
 $success:       $green !default;
 $info:          $cyan !default;
