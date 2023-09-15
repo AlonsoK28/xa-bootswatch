@@ -43,6 +43,11 @@ $dark:          $gray-800 !default;
 
 $min-contrast-ratio:   1.45 !default;
 
+// Prefix for :root CSS variables
+
+$variable-prefix: bs- !default; // Deprecated in v5.2.0 for the shorter `$prefix`
+$prefix: $variable-prefix !default;
+
 // Body
 
 $body-color:                $black !default;
@@ -74,17 +79,14 @@ $dropdown-link-hover-bg:            $secondary !default;
 
 // Pagination
 
-$pagination-color:                  $white !default;
-$pagination-bg:                     $primary !default;
-$pagination-border-color:           $primary !default;
-$pagination-hover-color:            $white !default;
-$pagination-hover-bg:               $secondary !default;
-$pagination-hover-border-color:     $pagination-hover-bg !default;
-$pagination-active-bg:              $secondary !default;
-$pagination-active-border-color:    $pagination-active-bg !default;
-$pagination-disabled-color:         $white !default;
-$pagination-disabled-bg:            #cce8e0 !default;
-$pagination-disabled-border-color:  $pagination-disabled-bg !default;
+$pagination-color: $gray-700 !default;
+$pagination-bg: var(--#{$prefix}tertiary-bg) !default;
+$pagination-border-color: var(--#{$prefix}border-color) !default;
+$pagination-hover-color: $pagination-color !default;
+$pagination-hover-bg: $pagination-bg !default;
+$pagination-active-border-color: darken($primary, 5%) !default;
+$pagination-disabled-color: $gray-600 !default;
+$pagination-disabled-bg: $pagination-bg !default;
 
 // Alerts
 
