@@ -43,6 +43,11 @@ $dark:          $gray-800 !default;
 
 $min-contrast-ratio:   2.05 !default;
 
+// Prefix for :root CSS variables
+
+$variable-prefix: bs- !default; // Deprecated in v5.2.0 for the shorter `$prefix`
+$prefix: $variable-prefix !default;
+
 // Links
 
 $link-color:                $success !default;
@@ -89,19 +94,14 @@ $navbar-dark-brand-color:                 $white !default;
 $navbar-dark-brand-hover-color:           $navbar-dark-hover-color !default;
 
 // Pagination
-
-$pagination-color:                  $white !default;
-$pagination-bg:                     $success !default;
-$pagination-border-width:           0 !default;
-$pagination-border-color:           transparent !default;
-$pagination-hover-color:            $white !default;
-$pagination-hover-bg:               darken($success, 15%) !default;
-$pagination-hover-border-color:     transparent !default;
-$pagination-active-bg:              $pagination-hover-bg !default;
-$pagination-active-border-color:    transparent !default;
-$pagination-disabled-color:         $gray-200 !default;
-$pagination-disabled-bg:            lighten($success, 15%) !default;
-$pagination-disabled-border-color:  transparent !default;
+$pagination-color: $gray-700 !default;
+$pagination-bg: var(--#{$prefix}tertiary-bg) !default;
+$pagination-border-color: var(--#{$prefix}border-color) !default;
+$pagination-hover-color: $pagination-color !default;
+$pagination-hover-bg: $pagination-bg !default;
+$pagination-active-border-color: darken($primary, 5%) !default;
+$pagination-disabled-color: $gray-600 !default;
+$pagination-disabled-bg: $pagination-bg !default;
 
 // List group
 
