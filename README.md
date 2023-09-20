@@ -1,4 +1,7 @@
-## Hot to compile
+## How to sync forked branch with original repo
+- https://docs.github.com/es/pull-requests/collaborating-with-pull-requests/working-with-forks/syncing-a-fork
+
+## How to compile
 
 Compile all themes using command `grunt swatch --force`
 
