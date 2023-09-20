@@ -19,6 +19,11 @@ Compile specify theme using command `grunt swatch:xa-minty --force`
 
 6. Publish using command `npm publish` (don't forget to `log in` if necessary)
 
+## Change log
+
+### 5.3.15-release
+- First stable version
+
 
 <p align="center">
   <img width="200" height="200" src="https://bootswatch.com/_assets/img/logo-dark.svg">
