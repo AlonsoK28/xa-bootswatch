@@ -23,7 +23,7 @@ Compile specify theme using command `grunt swatch:xa-minty --force`
 ## Change log
 
 ### 5.3.15-release
-- First stable version
+- First stable version based on [Bootstrap 5.3.2](https://www.npmjs.com/package/bootstrap/v/5.3.2)
 
 
 <p align="center">
