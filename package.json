@@ -18,7 +18,8 @@
     "htmllint": "grunt htmllint",
     "stylelint": "stylelint \"dist/**/*.scss\"",
     "release": "grunt release",
-    "test": "npm run stylelint"
+    "test": "npm run stylelint",
+    "build-xa-custom-themes": "grunt swatch:xa-flatly --force && grunt swatch:xa-minty --force && grunt swatch:xa-yeti && grunt swatch:xa-lumen --force"
   },
   "files": [
     "dist/**/*.{css,scss,map}"
