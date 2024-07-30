@@ -8,9 +8,13 @@ Compile all themes using command `grunt swatch --force`
 Compile specify theme using command `grunt swatch:xa-minty --force`
 
 ## How to update bootstrap version from [original](https://github.com/thomaspark/bootswatch)
+
 ### This could be necessary to update boostrap version in the future
+
 - merge `bootstrap.css` file from `original theme` to `custom theme`
     -  example merge `dist/minty/bootstrap.css` to `dist/xa-minty/bootstrap.css`
+
+- compile theme
 
 ## Publish new and update themes
 
@@ -35,7 +39,7 @@ Compile specify theme using command `grunt swatch:xa-minty --force`
 
 ### 5.3.16-release
 - `xa-minty`: improvements for button color into dark mode
-- merged [original](https://github.com/thomaspark/bootswatch) to project
+- merged [remote/original](https://github.com/thomaspark/bootswatch) to project
 
 ### 5.3.15-release
 - First stable version based on [Bootstrap 5.3.2](https://www.npmjs.com/package/bootstrap/v/5.3.2)
