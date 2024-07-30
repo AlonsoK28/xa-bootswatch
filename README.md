@@ -7,6 +7,11 @@ Compile all themes using command `grunt swatch --force`
 
 Compile specify theme using command `grunt swatch:xa-minty --force`
 
+## How to update bootstrap version from [original](https://github.com/thomaspark/bootswatch)
+### This could be necessary to update boostrap version in the future
+- merge `bootstrap.css` file from `original theme` to `custom theme`
+    -  example merge `dist/minty/bootstrap.css` to `dist/xa-minty/bootstrap.css`
+
 ## Publish new and update themes
 
 1. Create folder theme into `dist`
