@@ -70,7 +70,7 @@ $web-font-path: "https://fonts.googleapis.com/css2?family=Montserrat:wght@400;50
 [data-bs-theme=dark] {
   .btn.btn-warning,
   .btn.btn-warning:hover {
-    color: var(--text-dark) !important;
+    color: rgba(var(--bs-black-rgb), var(--bs-text-opacity)) !important;
   }
 }
 
