@@ -3139,6 +3139,10 @@ textarea.form-control-lg {
   --bs-btn-disabled-border-color: #ffce67;
 }
 
+[data-bs-theme=dark] .btn.btn-warning, .btn.btn-warning:hover {
+  color: var(--text-dark) !important;
+}
+
 .btn-danger {
   --bs-btn-color: #fff;
   --bs-btn-bg: #ff7851;
@@ -12078,6 +12082,7 @@ textarea.form-control-lg {
 .btn, .btn:hover {
   color: #fff;
 }
+
 .btn-light, .btn-light:hover {
   color: #5a5a5a;
 }
