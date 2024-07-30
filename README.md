@@ -15,7 +15,7 @@ Compile specify theme using command `grunt swatch:xa-minty --force`
 2. Add file `_bootswatch.scss` and `_variables.scss` to folder theme and modify his content if its neccesary
 
 3. Compile theme using command `grunt swatch:xa-modern --force`
-    - example to compile all custom themes: `build-xa-custom-themes`
+    - example to compile all custom themes: `npm run build-xa-custom-themes`
 
 4. Commit theme result changes from `dist` folder
 
