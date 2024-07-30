@@ -20,11 +20,6 @@ $web-font-path: "https://fonts.googleapis.com/css2?family=Montserrat:wght@400;50
 .btn {
   font-family: $headings-font-family;
 
-  &,
-  &:hover {
-    color: $white;
-  }
-
   &-light,
   &-light:hover {
     color: $gray-700;
