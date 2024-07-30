@@ -12114,6 +12114,11 @@ textarea.form-control-lg {
   color: #f8f9fa;
 }
 
+[data-bs-theme=dark] .btn.btn-warning,
+[data-bs-theme=dark] .btn.btn-warning:hover {
+  color: var(--text-dark) !important;
+}
+
 legend {
   font-family: Montserrat, -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 }
