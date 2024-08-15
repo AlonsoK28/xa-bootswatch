@@ -9,7 +9,7 @@ Compile specify theme using command `grunt swatch:xa-minty --force`
 
 ## How to update bootstrap version from [original](https://github.com/thomaspark/bootswatch)
 
-### This could be necessary to update boostrap version in the future
+### This could be necessary to update boostrap version in the future (For example to migrate to boostrap v6.x)
 
 - merge `bootstrap.css` file from `original theme` to `custom theme`
     -  example merge `dist/minty/bootstrap.css` to `dist/xa-minty/bootstrap.css`
@@ -34,6 +34,10 @@ Compile specify theme using command `grunt swatch:xa-minty --force`
 
 ## Change log
 
+24'
+### 5.3.21-release
+- `xa-lumen`: improvements for navbar styles
+
 ### 5.3.20-release
 - `xa-minty`: improvements for button color into dark mode
 
@@ -41,6 +45,7 @@ Compile specify theme using command `grunt swatch:xa-minty --force`
 - `xa-minty`: improvements for button color into dark mode
 - merged [remote/original](https://github.com/thomaspark/bootswatch) to project
 
+23'
 ### 5.3.15-release
 - First stable version based on [Bootstrap 5.3.2](https://www.npmjs.com/package/bootstrap/v/5.3.2)
 
