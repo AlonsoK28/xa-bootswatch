@@ -34,6 +34,10 @@ Compile specify theme using command `grunt swatch:xa-minty --force`
 
 ## Change log
 
+25'
+### 5.3.22-release
+- `xa-minty`: improvements for table styles
+
 24'
 ### 5.3.21-release
 - `xa-lumen`: improvements for navbar styles
