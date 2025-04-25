@@ -1,4 +1,4 @@
-// Quartz 5.3.3
+// Quartz 5.3.5
 // Bootswatch
 
 $theme: "quartz" !default;
@@ -75,6 +75,8 @@ $text-muted:                  rgba($white, .7) !default;
 $blockquote-footer-color:     $text-muted !default;
 
 // Tables
+
+$table-color:                 initial !default;
 
 $table-dark-bg:               $dark !default;
 $table-dark-border-color:     darken($dark, 5%) !default;

@@ -1,4 +1,4 @@
-// Sketchy 5.3.3
+// Sketchy 5.3.5
 // Bootswatch
 
 $theme: "sketchy" !default;
@@ -62,6 +62,8 @@ $headings-font-family:        "Cabin Sketch", cursive !default;
 $blockquote-small-color:      $gray-800 !default;
 
 // Tables
+
+$table-color:                 initial !default;
 
 $table-hover-bg:              $white !default;
 $table-border-width:          2px !default;

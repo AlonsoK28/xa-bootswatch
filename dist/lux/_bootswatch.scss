@@ -1,4 +1,4 @@
-// Lux 5.3.3
+// Lux 5.3.5
 // Bootswatch
 
 
@@ -145,6 +145,16 @@ th {
       padding: .75rem;
     }
   }
+}
+
+.table-primary,
+.table-secondary,
+.table-success,
+.table-warning,
+.table-danger,
+.table-info,
+.table-light {
+  --#{$prefix}table-color: #{$body-color};
 }
 
 // Forms
