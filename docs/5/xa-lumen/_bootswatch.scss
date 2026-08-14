@@ -36,7 +36,6 @@ $web-font-path: "https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,w
 
 .btn {
   @include shadow();
-  text-transform: uppercase;
 
   &:not(.disabled):hover {
     margin-top: 1px;
@@ -160,9 +159,7 @@ $web-font-path: "https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,w
   > li > span {
     position: relative;
     top: 0;
-    font-weight: 700;
-    color: $pagination-color;
-    text-transform: uppercase;
+
     @include shadow();
 
     &:hover,
