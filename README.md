@@ -35,6 +35,9 @@ Compile specify theme using command `grunt swatch:xa-minty --force`
 ## Change log
 
 26'
+### 5.3.26-release
+- added `xa-minty` theme
+
 ### 5.3.25-release
 - added `xa-lumen–orange` theme
 
