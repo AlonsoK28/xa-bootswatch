@@ -1,8 +1,8 @@
 @charset "UTF-8";
 /*!
- * Bootswatch v5.3.21 (https://bootswatch.com)
+ * Bootswatch v5.3.26 (https://bootswatch.com)
  * Theme: xa-minty
- * Copyright 2012-2025 Thomas Park
+ * Copyright 2012-2026 Thomas Park
  * Licensed under MIT
  * Based on Bootstrap
 */
@@ -100,7 +100,7 @@
   --bs-tertiary-color-rgb: 0, 0, 0;
   --bs-tertiary-bg: #f8f9fa;
   --bs-tertiary-bg-rgb: 248, 249, 250;
-  --bs-heading-color: #5a5a5a;
+  --bs-heading-color: inherit;
   --bs-link-color: #ed1748;
   --bs-link-color-rgb: 237, 23, 72;
   --bs-link-decoration: underline;
@@ -5879,7 +5879,7 @@ textarea.form-control-lg {
   --bs-popover-header-padding-x: 1rem;
   --bs-popover-header-padding-y: 0.5rem;
   --bs-popover-header-font-size: 1rem;
-  --bs-popover-header-color: #5a5a5a;
+  --bs-popover-header-color: inherit;
   --bs-popover-header-bg: var(--bs-secondary-bg);
   --bs-popover-body-padding-x: 1rem;
   --bs-popover-body-padding-y: 1rem;
