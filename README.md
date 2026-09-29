@@ -40,6 +40,7 @@ use `npm publish`
 ## Change log
 
 26'
+### 5.3.29-release
 ### 5.3.28-release
 ### 5.3.27-release
 - updated `xa-minty` variables
