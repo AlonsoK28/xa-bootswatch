@@ -30,7 +30,12 @@ Compile specify theme using command `grunt swatch:xa-minty --force`
 
 5. Update `package` version
 
-6. Publish using command `npm publish` (don't forget to `log in` if necessary)
+6. Login and Publish using command 
+### login
+use `npm login` and complete `2FA` auth
+
+### publish
+use `npm publish`
 
 ## Change log
 
