@@ -68,6 +68,9 @@ $web-font-path: "https://fonts.googleapis.com/css2?family=Montserrat:wght@400;50
 }
 
 [data-bs-theme=dark] {
+  --bs-secondary: #{$gray-400};
+  --bs-secondary-rgb: #{to-rgb($gray-400)};
+
   .btn.btn-warning,
   .btn.btn-warning:hover {
     color: var(--bs-black) !important;
